@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    float calcFare (int km, int min) {
+    static float calcFare (int km, int min) {
 
         float fare = 25;
         if (km > 2) {
